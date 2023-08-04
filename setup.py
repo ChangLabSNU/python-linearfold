@@ -43,8 +43,8 @@ setup(
     description='Python interface to LinearFold, a linear-time RNA secondary structure prediction tool',
     author='Hyeshik Chang',
     author_email='hyeshik@snu.ac.kr',
-    url='https://github.com/ChangLabSNU/linearfold-unofficial',
-    download_url='https://github.com/ChangLabSNU/linearfold-unofficial/releases',
+    url='https://github.com/ChangLabSNU/python-linearfold',
+    download_url='https://github.com/ChangLabSNU/python-linearfold/releases',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     keywords=[
