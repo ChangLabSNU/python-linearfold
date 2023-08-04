@@ -39,7 +39,7 @@ if not os.path.exists('LinearFold/src/LinearFold.cpp'):
 
 setup(
     name='linearfold-unofficial',
-    version='1.0',
+    version='0.9',
     description='Python interface to LinearFold, a linear-time RNA secondary structure prediction tool',
     author='Hyeshik Chang',
     author_email='hyeshik@snu.ac.kr',
