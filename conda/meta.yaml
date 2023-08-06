@@ -1,0 +1,31 @@
+{% set version = '0.1' %}
+
+package:
+  name: python-linearfold
+  version: {{ version }}
+
+source:
+  git_rev: v{{ version }}
+  git_url: https://github.com/ChangLabSNU/python-linearfold
+
+build:
+  script: {{ PYTHON }} -m pip install . -vv
+  number: 0
+
+requirements:
+  build:
+    - {{ compiler('cxx') }}
+  host:
+    - python
+    - pip
+  run:
+    - python
+
+test:
+  imports:
+    - linearfold
+
+about:
+  home: https://github.com/ChangLabSNU/python-linearfold
+  summary: Unofficial CPython binding to LinearFold
+  license: Non-commercial
